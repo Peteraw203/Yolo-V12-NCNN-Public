@@ -1,0 +1,1 @@
+C:\Users\peter\Desktop\Tugas\Tugas kuliah\ComVis\Yolo-V12-NCNN-Public\app\src\main\cpp\CMakeLists.txt

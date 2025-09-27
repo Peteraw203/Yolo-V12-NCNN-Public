@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#000000">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:id="@+id/outsideLayout"
+	android:layout_height="fill_parent"
+	android:background="#000000"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center_horizontal">
+
+		<Button
+			android:id="@+id/buttonSwitchCamera"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:backgroundTint="#005b8f"
+			android:text="Balik kamera" />
+
+		<Button
+			android:id="@+id/buttonStopStart"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:backgroundTint="#005b8f"
+			android:layout_marginStart="20dp"
+			android:text="Start/Stop" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"/>
+
+	<SurfaceView
+		android:id="@+id/cameraview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+</LinearLayout>
+
+<TextView
+		android:id="@+id/watermark"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center_horizontal"
+		android:padding="8dp"
+		android:layout_marginBottom="1dp"
+		android:text="Gilang_Peter"
+		android:textColor="#f0f0f0"
+		android:textSize="20dp" />
+	</FrameLayout>
+
