@@ -1,0 +1,5 @@
+# ninja log v5
+1	4850	7806585325108052	CMakeFiles/yolov12.dir/ndkcamera.cpp.o	7f47c677d7e22b36
+38	4946	7806585326043047	CMakeFiles/yolov12.dir/native-lib.cpp.o	9c15d8c0a043a242
+28	5140	7806585328060581	CMakeFiles/yolov12.dir/yolo.cpp.o	44ae565612fe1450
+5141	5852	7806585334615271	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	2062d1e8a02d95d1
