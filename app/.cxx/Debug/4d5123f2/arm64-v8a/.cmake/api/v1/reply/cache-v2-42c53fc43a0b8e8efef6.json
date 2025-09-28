@@ -1243,11 +1243,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Users/peter/AppData/Local/Android/Sdk/ndk/29.0.13113456/build/cmake/android.toolchain.cmake"
+			"type" : "UNINITIALIZED",
+			"value" : "C:\\Users\\peter\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.13113456\\build\\cmake\\android.toolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1275,7 +1275,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/opencv-4.9.0-android-sdk/OpenCV-android-sdk][cfound components: core imgproc ][v4.9.0()]"
+			"value" : "[C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/opencv-4.12.0-android-sdk/OpenCV-android-sdk][cfound components: core imgproc ][v4.12.0()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP",

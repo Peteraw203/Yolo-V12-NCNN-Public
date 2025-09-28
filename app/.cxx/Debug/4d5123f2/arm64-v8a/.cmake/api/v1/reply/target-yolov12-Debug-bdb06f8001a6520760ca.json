@@ -68,12 +68,12 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/arm64-v8a/include/ncnn"
+					"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250503-android-vulkan/arm64-v8a/include/ncnn"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/opencv-4.9.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include"
+					"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/opencv-4.12.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include"
 				}
 			],
 			"language" : "CXX",
@@ -100,17 +100,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250428-android-vulkan\\arm64-v8a\\lib\\libncnn.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250503-android-vulkan\\arm64-v8a\\lib\\libncnn.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a\"",
 				"role" : "libraries"
 			},
 			{
@@ -142,11 +142,11 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250428-android-vulkan\\arm64-v8a\\lib\\libSPIRV.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250503-android-vulkan\\arm64-v8a\\lib\\libSPIRV.a\"",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250428-android-vulkan\\arm64-v8a\\lib\\libglslang.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250503-android-vulkan\\arm64-v8a\\lib\\libglslang.a\"",
 				"role" : "libraries"
 			},
 			{
@@ -159,11 +159,11 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a\"",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtbb.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtbb.a\"",
 				"role" : "libraries"
 			},
 			{
@@ -175,11 +175,11 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libcpufeatures.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libcpufeatures.a\"",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libittnotify.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libittnotify.a\"",
 				"role" : "libraries"
 			},
 			{
@@ -191,7 +191,19 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.9.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtegra_hal.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtegra_hal.a\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libkleidicv_hal.a\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libkleidicv_thread.a\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\opencv-4.12.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libkleidicv.a\"",
 				"role" : "libraries"
 			},
 			{

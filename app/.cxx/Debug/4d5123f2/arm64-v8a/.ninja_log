@@ -1,5 +1,9 @@
 # ninja log v5
-1	4850	7806585325108052	CMakeFiles/yolov12.dir/ndkcamera.cpp.o	7f47c677d7e22b36
-38	4946	7806585326043047	CMakeFiles/yolov12.dir/native-lib.cpp.o	9c15d8c0a043a242
-28	5140	7806585328060581	CMakeFiles/yolov12.dir/yolo.cpp.o	44ae565612fe1450
-5141	5852	7806585334615271	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	2062d1e8a02d95d1
+26	13966	7807771151927606	CMakeFiles/yolov12.dir/ndkcamera.cpp.o	f76da9be9eb335c7
+65	14341	7807771155921720	CMakeFiles/yolov12.dir/native-lib.cpp.o	3f2a96c66952164
+53	14664	7807771159299400	CMakeFiles/yolov12.dir/yolo.cpp.o	1fe648eb19486469
+14665	16458	7807771176649717	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	956c81927aa0cf6
+11	6556	7807772003859626	CMakeFiles/yolov12.dir/ndkcamera.cpp.o	2be518168ce348ec
+28	6884	7807772007317843	CMakeFiles/yolov12.dir/native-lib.cpp.o	becaf8a0f3068f70
+20	6951	7807772007943377	CMakeFiles/yolov12.dir/yolo.cpp.o	e0ddb54a68fc5785
+6951	7477	7807772012677277	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	2a41d04be3d69344
