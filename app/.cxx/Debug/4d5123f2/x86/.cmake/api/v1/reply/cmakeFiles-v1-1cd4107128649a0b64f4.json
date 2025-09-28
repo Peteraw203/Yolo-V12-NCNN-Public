@@ -205,7 +205,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/ncnn/ncnnConfig.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/ncnn/ncnnConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/ncnn/ncnnConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -264,11 +268,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/glslang/glslang-config-version.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/glslang/glslang-config-version.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/glslang/glslang-config.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/glslang/glslang-config.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -307,19 +311,19 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/glslang/glslang-targets.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/glslang/glslang-targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/glslang/glslang-targets-release.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/glslang/glslang-targets-release.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/ncnn/ncnn.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/ncnn/ncnn.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/lib/cmake/ncnn/ncnn-release.cmake"
+			"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/lib/cmake/ncnn/ncnn-release.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

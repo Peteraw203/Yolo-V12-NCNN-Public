@@ -68,7 +68,7 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250428-android-vulkan/x86/include/ncnn"
+					"path" : "C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/ncnn-20250916-android-vulkan/x86/include/ncnn"
 				},
 				{
 					"backtrace" : 2,
@@ -100,7 +100,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250428-android-vulkan\\x86\\lib\\libncnn.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250916-android-vulkan\\x86\\lib\\libncnn.a\"",
 				"role" : "libraries"
 			},
 			{
@@ -142,11 +142,11 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250428-android-vulkan\\x86\\lib\\libSPIRV.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250916-android-vulkan\\x86\\lib\\libSPIRV.a\"",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250428-android-vulkan\\x86\\lib\\libglslang.a\"",
+				"fragment" : "\"C:\\Users\\peter\\Desktop\\Tugas\\Tugas kuliah\\ComVis\\ncnn-20250916-android-vulkan\\x86\\lib\\libglslang.a\"",
 				"role" : "libraries"
 			},
 			{
