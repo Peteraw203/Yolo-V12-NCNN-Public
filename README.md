@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Sebuah proyek **DALAM FASE PENGEMBANGAN** Computer Vision yang diimplementasikan pada **Android Native** untuk mendeteksi kondisi permukaan jalan dan berbagai halangan secara real-time. Sistem ini dirancang khusus untuk meningkatkan keselamatan navigasi **kursi roda otomatis ♿**, dengan memanfaatkan kecepatan inferensi dari model **YOLOv12** yang dioptimalkan menggunakan *framework* **NCNN**.
+Sebuah proyek Computer Vision **DALAM FASE PENGEMBANGAN** yang diimplementasikan pada **Android Native** untuk mendeteksi kondisi permukaan jalan dan berbagai halangan secara real-time. Sistem ini dirancang khusus untuk meningkatkan keselamatan navigasi **kursi roda otomatis ♿**, dengan memanfaatkan kecepatan inferensi dari model **YOLOv12** yang dioptimalkan menggunakan *framework* **NCNN**.
 
 <p align="center">
   <img src="attr/demo1.jpg" alt="Demo Wajah" width="49%">
