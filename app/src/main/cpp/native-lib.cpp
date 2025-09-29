@@ -170,10 +170,10 @@ Java_com_mpj_yolov12_Yolov12_loadModel(JNIEnv *env, jobject thiz, jobject assetM
 
 	const int target_sizes[] =
 			{
-					320,
-					320,
-					320,
-					320,
+					640,
+                    640,
+                    640,
+                    640,
 			};
 
 	const float mean_vals[][3] =
