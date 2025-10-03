@@ -13,3 +13,6 @@
 3858	5078	7808297646499875	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	2a41d04be3d69344
 15	3158	7808305759206570	CMakeFiles/yolov12.dir/native-lib.cpp.o	becaf8a0f3068f70
 3159	4320	7808305770371077	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	2a41d04be3d69344
+59	9052	7812167515579611	CMakeFiles/yolov12.dir/native-lib.cpp.o	becaf8a0f3068f70
+30	9295	7812167518417378	CMakeFiles/yolov12.dir/yolo.cpp.o	e0ddb54a68fc5785
+9295	10960	7812167533938999	C:/Users/peter/Desktop/Tugas/Tugas kuliah/ComVis/Yolo-V12-NCNN-Public/app/build/intermediates/cxx/Debug/4d5123f2/obj/arm64-v8a/libyolov12.so	2a41d04be3d69344
