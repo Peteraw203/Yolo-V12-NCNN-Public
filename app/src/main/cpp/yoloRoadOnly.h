@@ -11,8 +11,7 @@ static const char *class_names[] = {
         "keramik",
         "lubang",
         "paving",
-        "uneven",
-        "tangga"
+        "uneven"
 };
 
 
