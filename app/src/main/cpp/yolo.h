@@ -56,6 +56,9 @@ public:
 
 		int draw(cv::Mat &rgb, const std::vector<Object> &objects);
 
+        //Tambahan untuk menyimpan timer ke 2 GPU tanpa overhead dari yolo.cpp
+        double last_inference_time;
+
 public:
 		ncnn::Net yolo;
 		int target_size{};

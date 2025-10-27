@@ -47,54 +47,89 @@ static int draw_unsupported(cv::Mat &rgb) {
 }
 
 static int draw_fps(cv::Mat &rgb) {
-	// resolve moving average
-	float avg_fps = 0.f;
-	{
-		static double t0 = 0.f;
-		static float fps_history[10] = {0.f};
+    // resolve moving average
+    float avg_fps = 0.f;
+    float avg_ms = 0.f; // Variabel baru untuk rata-rata milidetik
 
-		double t1 = ncnn::get_current_time();
-		if (t0 == 0.f) {
-			t0 = t1;
-			return 0;
-		}
+    {
+        static double t0 = 0.f;
+        static float fps_history[10] = {0.f};
+        static float ms_history[10] = {0.f}; // <-- Array history baru untuk ms
 
-		float fps = 1000.f / (t1 - t0);
-		t0 = t1;
+        double t1 = ncnn::get_current_time();
+        if (t0 == 0.f) {
+            t0 = t1;
+            return 0;
+        }
 
-		for (int i = 9; i >= 1; i--) {
-			fps_history[i] = fps_history[i - 1];
-		}
-		fps_history[0] = fps;
+        // Ini adalah waktu 'ms' untuk frame ini
+        float frame_time_ms = (float)(t1 - t0);
 
-		if (fps_history[9] == 0.f) {
-			return 0;
-		}
+        float fps = 1000.f / frame_time_ms;
+        t0 = t1;
 
-		for (float i: fps_history) {
-			avg_fps += i;
-		}
-		avg_fps /= 10.f;
-	}
+        // Update history 'fps'
+        for (int i = 9; i >= 1; i--) {
+            fps_history[i] = fps_history[i - 1];
+        }
+        fps_history[0] = fps;
 
-	char text[32];
-	sprintf(text, "FPS=%.2f", avg_fps);
+        // Update history 'ms'
+        for (int i = 9; i >= 1; i--) {
+            ms_history[i] = ms_history[i - 1];
+        }
+        ms_history[0] = frame_time_ms; // <-- Simpan 'ms'
 
-	int baseLine = 0;
-	cv::Size label_size = cv::getTextSize(text, cv::FONT_HERSHEY_SIMPLEX, 0.5, 1, &baseLine);
+        if (fps_history[9] == 0.f) {
+            return 0;
+        }
 
-	int y = 0;
-	int x = rgb.cols - label_size.width;
+        // Hitung rata-rata
+        for (int i = 0; i < 10; i++) {
+            avg_fps += fps_history[i];
+            avg_ms += ms_history[i]; // <-- Akumulasi 'ms'
+        }
+        avg_fps /= 10.f;
+        avg_ms /= 10.f; // <-- Bagi rata-rata 'ms'
+    }
 
-	cv::rectangle(rgb,
-	              cv::Rect(cv::Point(x, y),
-	                       cv::Size(label_size.width, label_size.height + baseLine)),
-	              cv::Scalar(255, 255, 255), -1);
+    // Gambar Teks FPS
+    char text_fps[32];
+    sprintf(text_fps, "FPS=%.2f", avg_fps);
 
-	cv::putText(rgb, text, cv::Point(x, y + label_size.height),
-	            cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 0));
+    int baseLine = 0;
+    cv::Size label_size_fps = cv::getTextSize(text_fps, cv::FONT_HERSHEY_SIMPLEX, 0.5, 1, &baseLine);
 
-	return 0;
+    int y_fps = 0;
+    int x_fps = rgb.cols - label_size_fps.width;
+
+    cv::rectangle(rgb,
+                  cv::Rect(cv::Point(x_fps, y_fps),
+                           cv::Size(label_size_fps.width, label_size_fps.height + baseLine)),
+                  cv::Scalar(255, 255, 255), -1);
+
+    cv::putText(rgb, text_fps, cv::Point(x_fps, y_fps + label_size_fps.height),
+                cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 0));
+
+    // --- GAMBAR TEKS 'ms' edited
+    char text_ms[32];
+    sprintf(text_ms, "%.2f ms", avg_ms); // Tampilkan rata-rata 'ms'
+
+    cv::Size label_size_ms = cv::getTextSize(text_ms, cv::FONT_HERSHEY_SIMPLEX, 0.5, 1, &baseLine);
+
+    // Tampilkan 'ms' tepat di bawah 'FPS'
+    int y_ms = y_fps + label_size_fps.height + 5;
+    int x_ms = rgb.cols - label_size_ms.width;
+
+    cv::rectangle(rgb,
+                  cv::Rect(cv::Point(x_ms, y_ms),
+                           cv::Size(label_size_ms.width, label_size_ms.height + baseLine)),
+                  cv::Scalar(255, 255, 255), -1);
+
+    cv::putText(rgb, text_ms, cv::Point(x_ms, y_ms + label_size_ms.height),
+                cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 0));
+
+    return 0;
 }
 
 static Yolo *g_yolo = nullptr;

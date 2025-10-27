@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 			}
 		}); */
 
-		/* Spinner spinnerCPUGPU = findViewById(R.id.spinnerCPUGPU);
+		Spinner spinnerCPUGPU = findViewById(R.id.spinnerCPUGPU);
 		spinnerCPUGPU.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 			@Override
 			public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 			@Override
 			public void onNothingSelected(AdapterView<?> arg0) {
 			}
-		}); */
+		});
 
 		// cameraView
 		cameraView.setBackgroundColor(0xFFFFFFFF);
